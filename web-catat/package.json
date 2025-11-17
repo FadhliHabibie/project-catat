@@ -1,0 +1,9 @@
+{
+  "name": "umkm-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "bcryptjs": "latest",
+    "jsonwebtoken": "latest"
+  }
+}
