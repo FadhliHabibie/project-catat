@@ -11,7 +11,7 @@ async function login() {
   const data = await res.json();
   if (data.token) {
     localStorage.setItem("token", data.token);
-    location.href = "index.html";
+    location.href = "dashboard.html";
   } else {
     msg.textContent = data.error;
   }
@@ -120,3 +120,4 @@ async function loadHistory() {
   });
   document.getElementById("t_pengeluaran").innerHTML = html2;
 }
+
