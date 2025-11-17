@@ -1,9 +1,5 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/public/login.html", "permanent": false }
-  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/public/$1" }
   ]
 }
-
